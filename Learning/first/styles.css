@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+h1{
+    font-family: 'Roboto', sans-serif;
+    background-color: coral;
+    text-align: center
+    
+}
+
+body{
+    background-color: bisque;
+}
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    background-color: coral;
+    text-align: center;
+    font-size: larger;
+    background-position: center;
+    font-weight: bold;
+}
+.img{
+    text-align: center;
+}
