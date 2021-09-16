@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    /* background-color: #24252A; */
+    padding: 0px;
+    margin: 0px;
+}
+/* .gradient{
+    background: #FFEFBA;
+background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA); 
+background: linear-gradient(to left, #FFFFFF, #FFEFBA); 
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-wrap:inherit;
+    padding: 30px 30px 0px 30px;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding:0px 30px 0px 30px
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+li,a,button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#nav-logo-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+/* 
+    background: #FFEFBA;
+    background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA); 
+    background: linear-gradient(to left, #FFFFFF, #FFEFBA);     */
+
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+}
+
+
+footer{
+    background-color: #24252A;
+    margin-top: auto;
+}
+
+
+.pre-pre-end{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color:white;
+    text-align: center;
+    padding:10px 0px 0px 0px;
+}
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(8px,auto);
+    grid-auto-columns: minmax(4px,auto);
+    background-color: #24252A;
+   
+}
+
+    .col1{
+        padding-left: 25px;
+    }
+        .college-details{
+            list-style: none;
+            padding: 2px 0px 2px 0px;
+        }
+                .college-details li {
+                    text-decoration: none;
+                    font-size: 15px;
+                    color: white;
+                    padding: 2px 0px 2px 0px;
+                }
+
+                    .college-details li a{
+                        text-decoration: none;
+                        font-size: 15px;
+                        color: white;
+                    }
+
+                        #mail-link a{
+                            text-decoration: none;
+                            color: white;
+                        }
+
+
+
+
+
+
+    .col2{
+        padding: 35px 0px 20px 0px;
+    }
+        .college-social{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+            flex-direction: row;
+            list-style: none;
+        }
+
+
+
+    .col3{
+        font-size: 19px;
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        
+    }
+        .college-links li{
+                list-style: none;
+        }
+
+            .college-links li a{
+                text-decoration: none;
+                font-size: 18px;
+                color: white;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+            
+            }
+
+
+ .end{
+ font-family: 'Montserrat', sans-serif;
+color: white;
+text-align: center;
+position: relative;
+font-size: 19px;
+padding: 0px 0px 10px 0px;
+}
+
+/* .end{
+    padding-top: 5px;
+} */
+
+
